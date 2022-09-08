@@ -1,0 +1,31 @@
+header{
+	background: #0166b3;
+	min-height: 64px;
+	color: #fff;
+}
+
+footer{
+	background: #454545;
+	padding: 2rem;
+	color: #fff;
+}
+
+.modulo{
+	color: #fff;
+	min-height: 250px;
+}
+.modulo.verde-escuro h3{
+	background: #1b5e20;
+}
+.modulo.verde-escuro{
+	border: 2px solid #1b5e20;
+}
+@media(min-width: 576px) {
+	main {
+		height: calc(100vh - 164px);
+	}
+	
+	footer{
+			min-height:100px;
+	}
+}

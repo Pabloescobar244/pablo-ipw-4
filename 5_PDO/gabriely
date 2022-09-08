@@ -1,0 +1,4 @@
+documet. write("olà mundo!");
+
+var nome = "joão";
+documente.write(nome);
